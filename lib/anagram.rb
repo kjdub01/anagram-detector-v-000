@@ -8,13 +8,15 @@ class Anagram
   end
   
   def match(array) 
-      match = []   
-    if array.to_s.split("") == @word.split("")
+      match = [] 
+      array.each do |word|
+    if word.to_s.split("") == @word.split("")
       match << @word
       match
     else
       match
   end
+end
 end
   
 end 
