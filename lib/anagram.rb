@@ -8,11 +8,9 @@ class Anagram
   end
   
   def match(array) 
-      match = []
       array.find_all do |word|
     if word.to_s.split("") == @word.split("")
-      match << @word
-      match
+      
     else
       match
   end
