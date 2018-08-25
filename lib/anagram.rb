@@ -7,6 +7,9 @@ class Anagrams
   end
   
   def self.match(array) 
-    array.split("") == @word.split("")
+    new_array = array.split("") 
+    word_array = @word.split("")
+    new_array.sort == word_array.sort
   end
+  
 end 
