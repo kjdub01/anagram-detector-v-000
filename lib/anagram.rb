@@ -10,7 +10,7 @@ class Anagram
   def match(array) 
    
     if array.to_s.split("").sort == @word.split("").sort
-      << word
+      @word.push
       @@match
     else
       @@match
