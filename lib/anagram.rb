@@ -9,7 +9,7 @@ class Anagram
   
   def match(array) 
       match = [] 
-    if array.split("") == @word.split("")
+    if array.to_s.split("") == @word.split("")
       match << @word
       match
     else
