@@ -8,7 +8,7 @@ class Anagram
   
   def match(array) 
     new_array = array.to_s.split("").sort 
-    word_array = @word.split("")
+    word_array = @word.split("").sort
   end
   
 end 
