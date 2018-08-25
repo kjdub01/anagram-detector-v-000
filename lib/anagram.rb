@@ -8,7 +8,8 @@ class Anagram
   end
   
   def match(array) 
-      match = [] 
+      match = []
+      
     if array.to_s.split("") == @word.split("")
       match << @word
       match
