@@ -10,7 +10,7 @@ class Anagram
   def match(array) 
       match = [] 
       array.each do |word|
-    if word.to_s.split("") == @word.split("")
+    if word.split("") == @word.split("")
       match << @word
       match
     else
