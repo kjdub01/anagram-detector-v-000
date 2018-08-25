@@ -7,6 +7,6 @@ class Anagrams
   end
   
   def self.match(array) 
-    array.match
+    array.split("") == @word
   end
 end 
